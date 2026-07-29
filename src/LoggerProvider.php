@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace A50\Logger;
 
+use A50\Container\ServiceProvider;
 use Monolog\Handler\StreamHandler;
 use Monolog\Level;
 use Monolog\Logger;
 use Psr\Container\ContainerInterface;
 use Psr\Log\LoggerInterface;
-use A50\Container\ServiceProvider;
 
 final class LoggerProvider implements ServiceProvider
 {

@@ -56,7 +56,6 @@ final class LoggerConfig
     }
 
     /**
-     * @return ?string
      */
     public function file(): ?string
     {
